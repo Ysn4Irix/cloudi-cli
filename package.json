@@ -1,0 +1,47 @@
+{
+	"name": "cloudi-cli",
+	"description": "cli for uploading images & videos to cloudinary cloud",
+	"version": "1.3.0",
+	"license": "MIT",
+	"bin": {
+		"cloudi-cli": "index.js",
+		"cloudi": "index.js"
+	},
+	"author": {
+		"name": "Ysn4Irix",
+		"email": "ysn4irix@gmail.com",
+		"url": "https://ysnirix.tech"
+	},
+	"keywords": [
+		"cloudi-cli",
+		"cloudinary",
+		"uploader",
+		"Ysn4Irix"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"repository": {
+		"url": "https://github.com/ysn4irix/cloudi-cli"
+	},
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"clipboardy": "^2.0.0",
+		"cloudinary": "^1.30.0",
+		"dotenv": "^16.0.1",
+		"meow": "^9.0.0",
+		"ora": "^5.4.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
